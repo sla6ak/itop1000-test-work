@@ -2,6 +2,7 @@
     "name": "itop1000-test-work",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://itop1000-test-work.vercel.app/",
     "dependencies": {
         "@emotion/react": "^11.10.4",
         "@emotion/styled": "^11.10.4",
@@ -27,6 +28,7 @@
         "start": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test",
+        "lint:js": "eslint src/**/*.{js,jsx,tsx,ts}",
         "eject": "react-scripts eject"
     },
     "eslintConfig": {
